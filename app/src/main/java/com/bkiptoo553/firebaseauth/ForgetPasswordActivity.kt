@@ -17,4 +17,9 @@ class ForgetPasswordActivity : AppCompatActivity() {
             insets
         }
     }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        finish()
+    }
 }

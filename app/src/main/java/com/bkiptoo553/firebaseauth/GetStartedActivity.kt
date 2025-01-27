@@ -9,7 +9,9 @@ import androidx.core.view.WindowInsetsCompat
 import com.bkiptoo553.firebaseauth.databinding.ActivityGetStartedBinding
 
 class GetStartedActivity : AppCompatActivity() {
+
     private lateinit var binding: ActivityGetStartedBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
